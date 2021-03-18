@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.89);
+}
+nav .navbar{
+    background-color: rgba(0, 0, 0, 0.425);
+    color: #fff;
+}
+nav, header {
+    position: fixed;
+    z-index: 3;
+}
+#menu a {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10em;
+}
+#menu a:hover {
+    color: #ccc;
+
+}
+#trailer {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-top: 0em;
+}
+.title_game {
+    color: #fff;
+    font-size: 4em;
+    padding-top: 4em;
+    padding-left: 30px;
+}
+.description {
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    padding-left: 30px;
+}
+.botoes {
+    padding-left: 30px;
+    margin-top: 2em;
+}
+.item {
+    cursor: pointer;
+}
+.box-filme {
+    transition: all .2s ease;
+}
+.box-filme:hover {
+    width: 4em;
+    transform: scale(1.1);
+    opacity: .5;
+}
+.btn-buy {
+    color: #fff;
+    padding: 2px 5px;
+    margin-top: 3.8em;
+    margin-left: 1em;
+}
+.btn-buy a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffff;
+}
+#populares{
+    margin-top: 20em;
+}
+.comentario {
+    font-size: 3em;
+    margin-left: -.1em;
+    font-family: Open Sans, Arial, sans-serif;
+    margin-bottom: 30px;
+}
+.titulo-list {
+    color: #fff;
+    padding-left: .5em;
+}
+.title-promos {
+    text-align: center;
+    color: #fff;
+    font-family: open sans, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title-promos h2 {
+    font-size: 3em;
+    margin-top: 1em;
+}
+#divider-promos {
+    color: #fff;
+}
+#promocoes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+#promocooes .card {
+    width: 12em;
+}
+.card-title {
+    font-size: 1.3em;
+}
+.card-text {
+    font-family:Josefin Sans;
+    width: 99%;
+}
+.promocard {
+    cursor: pointer;
+    width: 19rem;
+    transition: all .1s ease;
+}
+.promocard:hover {
+    width: 20rem;
+    transform: scale(1.0);
+    z-index: 2;
+}
+
+/* -------------------------------------------------------------------- */
+#details1 {
+    opacity: .2;
+    margin-left: 4em;
+    position: absolute;
+}
+#details2 {
+    opacity: .2;
+    position: absolute;    
+    margin-left: 75em;
+}
+#details3 {
+    opacity: .5;
+    position: absolute;
+    margin-left: 18em;
+}
+.image {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.title-news {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    text-align: center;
+    color: #fff;
+    font-family: open sans, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title-news h2 {
+    font-size: 3em;
+    margin-top: 1em;
+}
+.novidades {
+    margin-top: 7em;
+    margin-left: 1em;
+    color: #fff;
+}
+.novidades p {
+    width: 95%;
+    margin-left: -2em;
+}
+.novidades h2 {
+    margin-left: -1.3em;
+}
+#news {
+    margin-top: 9em;
+}
+.newsimage {
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+.newsbuy {
+    margin-top: 12.8em;
+    margin-left: -2.5em;
+    display: flex;
+}
+.newsbuy2 {
+    margin-left: 4em;
+}
+Footer {
+    text-align: center;
+    margin-top: 4em;
+    font-size: 1.2em;
+    color: #ccc;
+}
