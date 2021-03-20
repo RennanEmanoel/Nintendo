@@ -22,7 +22,7 @@ Crie esse projeto para colocar em praticar alguns conhecimentos adquiridos, e ta
 
  :black_medium_square: CSS
 
- :black_medium_square:  Java Script
+ :black_medium_square:  JavaScript
 
 
 
